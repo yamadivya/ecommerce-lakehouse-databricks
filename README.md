@@ -133,10 +133,10 @@ ecommerce-lakehouse-databricks/
 
 ### Prerequisites
 ```
-✅ Azure subscription
-✅ Azure Databricks Premium workspace (Hybrid)
-✅ Unity Catalog enabled
-✅ Kaggle account (free dataset download)
+Azure subscription
+Azure Databricks Premium workspace (Hybrid)
+Unity Catalog enabled
+Kaggle account (free dataset download)
 ```
 
 ### Quick Start
@@ -166,14 +166,14 @@ CREATE SCHEMA IF NOT EXISTS ecommerce.gold;
 
 **5. Run notebooks in order**
 ```
-01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09
+01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 
 ```
 
 See [docs/setup_guide.md](docs/setup_guide.md) for detailed instructions.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Catalog Structure
 *(Add screenshot here)*
@@ -191,14 +191,13 @@ See [docs/setup_guide.md](docs/setup_guide.md) for detailed instructions.
 - **Real Dataset** — 550,688 records from a real Brazilian e-commerce company
 - **Production Architecture** — Medallion pattern used in enterprise data teams
 - **Data Quality** — DLT Expectations with warn/drop/fail rules
-- **Governance** — Unity Catalog RBAC with PII tagging
 - **Automated** — Databricks Workflows scheduled daily
 - **Optimized** — OPTIMIZE + Z-ORDER + VACUUM + Auto Compaction
 - **Time Travel** — Full Delta Lake history on all tables
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Divya Manoj**
 
@@ -208,17 +207,9 @@ Dataset: [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/data
 
 ---
 
-## 📄 License
+## License
 
 MIT License — feel free to use and modify!
-```
 
----
 
-After pasting:
-```
-Scroll down
-→ Commit message: "Add professional README"
-→ Click "Commit changes"
-→ Commit message: "Initial commit: E-Commerce Lakehouse Pipeline"
-→ Click "Commit changes"
+
