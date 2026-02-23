@@ -175,14 +175,19 @@ See [docs/setup_guide.md](docs/setup_guide.md) for detailed instructions.
 
 ## Screenshots
 
+## 📸 Screenshots
+
 ### Catalog Structure
-*(Add screenshot here)*
+![Catalog Structure](screenshots/catalog_structure.png)
 
 ### DLT Pipeline Graph
-*(Add screenshot here)*
+![DLT Pipeline Graph](screenshots/dlt_pipeline_graph.png)
 
 ### Workflow Run
-*(Add screenshot here)*
+![Workflow Run](screenshots/workflow_run.png)
+
+### Gold Query Results
+![Gold Query Results](screenshots/gold_query_results.csv)
 
 ---
 
