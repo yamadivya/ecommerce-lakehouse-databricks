@@ -175,8 +175,6 @@ See [docs/setup_guide.md](docs/setup_guide.md) for detailed instructions.
 
 ## Screenshots
 
-## 📸 Screenshots
-
 ### Catalog Structure
 ![Catalog Structure](screenshots/catalog_structure.png)
 
