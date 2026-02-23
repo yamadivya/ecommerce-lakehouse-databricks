@@ -169,8 +169,6 @@ CREATE SCHEMA IF NOT EXISTS ecommerce.gold;
 01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 
 ```
 
-See [docs/setup_guide.md](docs/setup_guide.md) for detailed instructions.
-
 ---
 
 ## Screenshots
