@@ -126,7 +126,7 @@ ecommerce-lakehouse-databricks/
 ---
 
 ##  SCD Type 2 — Customer Profile History
-
+Standalone notebook demonstrating SCD Type 2 pattern. In production, this would be integrated into the daily pipeline to process real customer profile changes.
 Tracks full history of customer location changes over time.
 
 | Table | Description |
