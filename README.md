@@ -108,7 +108,7 @@ ecommerce-lakehouse-databricks/
 | 6 | 06_pipeline_validation | Automated data quality checks |
 | 7 | 07_delta_live_tables | DLT pipeline with expectations |
 | 8 | 08_delta_optimization | OPTIMIZE, Z-ORDER, VACUUM |
-
+| 9 | 09_scd_type2_customers | SCD Type 2 customer profile history |
 
 ---
 
@@ -125,7 +125,23 @@ ecommerce-lakehouse-databricks/
 
 ---
 
+##  SCD Type 2 — Customer Profile History
 
+Tracks full history of customer location changes over time.
+
+| Table | Description |
+|-------|-------------|
+| silver.customers_scd | Full customer location history |
+| gold.customer_location_analysis | Location change analysis by state |
+
+Key Features:
+- Full history preserved for every customer change
+- Point-in-time queries (where were customers in 2017?)
+- Movement analysis (which cities are customers moving to?)
+- Version tracking (v1=original, v2=first change, v3=second change)
+
+
+---
 
 
 
@@ -187,7 +203,7 @@ CREATE SCHEMA IF NOT EXISTS ecommerce.gold;
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Real Dataset** — 550,688 records from a real Brazilian e-commerce company
 - **Production Architecture** — Medallion pattern used in enterprise data teams
